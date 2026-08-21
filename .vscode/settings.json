@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "*.lua": "glua"
-    },
-    "glualint.activeLanguages": [
-        "glua",
-    ],
-}
