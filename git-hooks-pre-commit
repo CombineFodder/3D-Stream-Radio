@@ -1,9 +1,0 @@
-#!/bin/sh
-filename="data_static/streamradio/version.txt"
-version=$(head -n 1 $filename)
-nextversion=$(($version + 1))
-timestap=$(date -u +%s)
-
-echo $nextversion > $filename
-echo $timestap >> $filename
-git add $filename
